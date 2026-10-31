@@ -1,0 +1,16 @@
+{
+  "name": "notyra-theme-blue",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Ocean blue theme plugin for Notyra, with light and dark palettes",
+  "author": "Yuma Shintani",
+  "license": "MIT",
+  "packageManager": "pnpm@12.15.0",
+  "scripts": {
+    "typecheck": "node scripts/validate.mjs",
+    "build": "node scripts/validate.mjs",
+    "test": "node scripts/validate.mjs",
+    "package": "node scripts/validate.mjs && node scripts/package.mjs"
+  },
+  "notyra": { "displayName": "Blue Theme / ブルーテーマ", "type": "theme", "notyraVersion": "^3.1.7", "theme": "theme.json", "themeCss": "theme.css" }
+}
